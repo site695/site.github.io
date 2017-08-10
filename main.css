@@ -136,7 +136,7 @@ pre {
   margin: 130px 0 130px;
   font-size: 28px;
   line-height: 1.4;
-  font-family: -webkit-pictograph;
+  font-family: -webkit-pictograph sans-serif;
   font-style: italic;
   color: #434343;
 }
@@ -222,16 +222,16 @@ p > a {
   font-size: 55px;
   font-weight: 600;
   width: 30% /* 300px */;
+  margin: 50px 0 32px;
   margin-right: 56px;
   display: block;
-  margin: 50px 0 32px;
 }
 
 h1 + pre {
   margin: 9px 0 0;
   font-size: 28px;
   line-height: 1.4;
-  font-family: -webkit-pictograph;
+  font-family: -webkit-pictograph sans-serif;
   font-style: italic;
   color: #434343;
 }
@@ -318,7 +318,7 @@ background:#ccc;
 /* blog */
 
 h2 {
-  font-family: Tahoma;
+  font-family: Tahoma sans-serif;
   margin: 20px 10px;
 }
 
@@ -342,8 +342,8 @@ h2 {
 
 }
 
-.block:child {
-  margin: 0px;
+.block:last-child {
+  margin: 0;
 }
 
 .block > p {
@@ -373,7 +373,7 @@ p + a {
 }
 
 .cont_2 {
-  margin: 0px 0 92px 423px;
+  margin: 0 0 92px 423px;
   line-height: 1.4;
 }
 
@@ -398,7 +398,7 @@ p + a {
 .block_3 {
   margin: 18px 8px;
   /*margin:18px 10px 107px;*/
-  padding: 0px 0px 0 0;
+  padding: 0 0 0 0;
   /* width: 267px; */
   height: 200px;
   background: #e1e1e1;
